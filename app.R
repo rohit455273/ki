@@ -23,6 +23,9 @@ server <- function(input, output, session) {
   exampleModuleServer("examplemodule2")
   # =========================
 
+  
+  
+  
   data <- reactive({
     # lexical_sort from R/example.R
     lexical_sort(seq_len(input$size))
